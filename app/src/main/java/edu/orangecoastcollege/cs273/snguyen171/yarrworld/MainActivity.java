@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         // Inflating (!) opening the layout called activity_main (activity_main.xml)
         setContentView(R.layout.activity_main);
 
-        // Hook up the speakButton to the one in our view:
+        // Hook up the speakButton to the one in our view::
         speakButton = (Button) findViewById(R.id.speakButton);
     }
 }
