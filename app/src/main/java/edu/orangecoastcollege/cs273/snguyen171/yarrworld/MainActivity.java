@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Hook up the speakButton to the one in our view::
+        //
         speakButton = (Button) findViewById(R.id.speakButton);
     }
 }
